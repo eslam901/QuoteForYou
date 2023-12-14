@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="images/3672031.png" type="image/x-icon">
+    <title>Quote for you</title>
+  </head>
+
+  <body>
+
+    <header class="w-100 vh-100 d-flex py-5 flex-column justify-content-between align-items-center ">
+      <h1 class="text-white-50 mb-4 mt-5">
+        Quote of the Day
+      </h1>
+      <div class="qoute-container w-25 rounded rounded-3 p-3">
+        <div class="w-100 quotes position-relative py-2 px-3">
+          <i class="fa-solid fa-quote-left fa-2xl position-absolute top-0 start-0"></i>
+          <p id="qoute" class="text-center px-1 m-0 fw-medium lead">
+            Start your day with a quote
+
+          </p>
+          <i class="fa-solid fa-quote-right fa-2xl position-absolute bottom-0 end-0"></i>
+        </div>
+        <p id="auther" class="text-end m-0 pt-3 fw-bold">
+          ― ?????
+        </p>
+      </div>
+      
+      <div class="mb-5 pb-4">
+        <button class="btn btn-dark mt-3 mb-5" onclick="getRandom()">
+          try your luck
+        </button>
+      </div>
+    </header>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+
+</html>

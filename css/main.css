@@ -1,0 +1,8 @@
+header{
+  background-image: url('../images/1612-6.jpg');
+  background-position: center center;
+  background-size: cover;
+  .qoute-container{
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+}
